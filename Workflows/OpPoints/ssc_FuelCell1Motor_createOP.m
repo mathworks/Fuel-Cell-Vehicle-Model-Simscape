@@ -1,5 +1,5 @@
 % Script to create operating point from snapshot of simulation results
-% Copyright 2020 The MathWorks, Inc.
+% Copyright 2020-2021 The MathWorks, Inc.
 
 % Open model and configure
 mdl = 'ssc_car_fuel_cell_1motor';
