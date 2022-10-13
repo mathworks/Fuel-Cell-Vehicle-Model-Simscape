@@ -14,8 +14,8 @@ if(exist('+custom_dcdc_uni','dir') && exist('custom_dcdc_uni_lib.slx','file'))
     ssc_clean custom_dcdc_uni
 end
 
-if(exist('+customMath','dir') && exist('customMath_lib.slx','file'))
-    ssc_clean customMath
+if(exist('+gn_supplement','dir') && exist('gn_supplement_lib.slx','file'))
+    ssc_clean gn_supplement
 end
 
 if(exist('+customMath','dir') && exist('customMath_lib.slx','file'))
