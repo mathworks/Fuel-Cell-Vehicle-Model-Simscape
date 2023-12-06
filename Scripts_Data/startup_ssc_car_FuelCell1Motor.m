@@ -14,3 +14,5 @@ ssc_build('customMath');
 
 curr_proj = simulinkproject;
 cd(curr_proj.RootFolder);
+
+open_system('ssc_car_fuel_cell_1motor')
