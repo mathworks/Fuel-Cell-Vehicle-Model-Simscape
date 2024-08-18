@@ -1,5 +1,5 @@
 % Startup file for Fuel Cell Vehicle Project
-% Copyright 2019-2023 The MathWorks, Inc.
+% Copyright 2019-2024 The MathWorks, Inc.
 
 load FuelCellParams 
 load ssc_FuelCell1Motor_op10sec
