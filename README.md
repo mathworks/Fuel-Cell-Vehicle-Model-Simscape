@@ -16,8 +16,6 @@ Open the project Fuel_Cell_Vehicle.prj to get started.
 Please visit the [Simscape Fluids](https://www.mathworks.com/products/simscape-fluids.html) 
 page to learn more about modeling fluid systems.
 
-[![View Fuel Cell Vehicle Model in Simscape on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/82340-fuel-cell-vehicle-model-in-simscape)
-
 ## **Fuel Cell Vehicle Model**
 ![](Overview/html/ssc_car_fuel_cell_1motor_modelLevel.png)
 
