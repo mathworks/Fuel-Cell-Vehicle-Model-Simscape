@@ -4,7 +4,7 @@ function sm_car_plot8fuelcell(simlog_data)
 %
 % Plot results from electric powertrains
 %
-% Copyright 2016-2024 The MathWorks, Inc.
+% Copyright 2016-2025 The MathWorks, Inc.
 
 % Reuse figure if it exists, else create new figure
 fig_handle_name =   'h8_sm_car';
