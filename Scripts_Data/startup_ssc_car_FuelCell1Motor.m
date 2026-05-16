@@ -5,11 +5,11 @@ load FuelCellParams
 load ssc_FuelCell1Motor_op10sec
 
 %% Create custom components for fuel cell
-custom_code_fc = dir('**/unidir_dcdc_converter.sscp');
+custom_code_fc = dir('**/custom_product.ssc');
 cd([custom_code_fc.folder '/..'])
 ssc_build('GasN');
 ssc_build('gn_supplement');
-ssc_build('custom_dcdc_uni');
+%ssc_build('custom_dcdc_uni');
 ssc_build('customMath');
 
 curr_proj = simulinkproject;

@@ -6,13 +6,13 @@
 curr_proj = simulinkproject;
 cd(curr_proj.RootFolder)
 
-custom_code_fc = dir('**/unidir_dcdc_converter.sscp');
+custom_code_fc = dir('**/custom_product.ssc');
 cd([custom_code_fc.folder '/..'])
 
 % Clean custom library
-if(exist('+custom_dcdc_uni','dir') && exist('custom_dcdc_uni_lib.slx','file'))
-    ssc_clean custom_dcdc_uni
-end
+%if(exist('+custom_dcdc_uni','dir') && exist('custom_dcdc_uni_lib.slx','file'))
+%    ssc_clean custom_dcdc_uni
+%end
 
 if(exist('+gn_supplement','dir') && exist('gn_supplement_lib.slx','file'))
     ssc_clean gn_supplement
